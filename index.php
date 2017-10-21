@@ -8,6 +8,5 @@ require(__DIR__ . '/vendor/yiisoft/yii2/Yii.php');
 require (__DIR__.'/common/config/bootstrap.php');
 
 $config = require(__DIR__ . '/home/config/web.php');
-echo "cc";
 $app = new \yii\web\Application($config);
 $app->run();
