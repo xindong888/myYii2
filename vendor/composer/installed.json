@@ -434,7 +434,7 @@
         "version_normalized": "3.3.7.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/twbs/bootstrap.git",
+            "url": "git@github.com:twbs/bootstrap.git",
             "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
         },
         "dist": {
@@ -446,7 +446,6 @@
         "require": {
             "bower-asset/jquery": ">=1.9.1,<4.0"
         },
-        "time": "2016-07-25T15:51:55+00:00",
         "type": "bower-asset-library",
         "extra": {
             "bower-asset-main": [
@@ -464,7 +463,7 @@
                 "test-infra"
             ]
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "license": [
             "MIT"
         ],
@@ -506,7 +505,7 @@
                 "dev-master": "2.0.x-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "yii\\bootstrap\\": ""
