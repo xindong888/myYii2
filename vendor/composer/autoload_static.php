@@ -13,6 +13,7 @@ class ComposerStaticInit999339993fb2c413a5fde7ffb3d1f246
     public static $prefixLengthsPsr4 = array (
         'y' => 
         array (
+            'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
@@ -24,6 +25,10 @@ class ComposerStaticInit999339993fb2c413a5fde7ffb3d1f246
     );
 
     public static $prefixDirsPsr4 = array (
+        'yii\\debug\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-debug',
+        ),
         'yii\\composer\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-composer',

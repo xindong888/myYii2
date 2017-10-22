@@ -9,7 +9,8 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "yiisoft/yii2-bootstrap": "2.0.7"
+        "yiisoft/yii2-bootstrap": "2.0.7",
+        "yiisoft/yii2-debug": "^2.0"
     },
     "config": {
         "process-timeout": 1800,
