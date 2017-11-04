@@ -13,6 +13,7 @@ class ComposerStaticInit999339993fb2c413a5fde7ffb3d1f246
     public static $prefixLengthsPsr4 = array (
         'y' => 
         array (
+            'yii\\gii\\' => 8,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
@@ -25,6 +26,10 @@ class ComposerStaticInit999339993fb2c413a5fde7ffb3d1f246
     );
 
     public static $prefixDirsPsr4 = array (
+        'yii\\gii\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
+        ),
         'yii\\debug\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-debug',
@@ -53,6 +58,13 @@ class ComposerStaticInit999339993fb2c413a5fde7ffb3d1f246
             'HTMLPurifier' => 
             array (
                 0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
+            ),
+        ),
+        'D' => 
+        array (
+            'Diff' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpspec/php-diff/lib',
             ),
         ),
     );
