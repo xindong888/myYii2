@@ -12,16 +12,17 @@ use yii\web\AssetBundle;
 
 class HomeAsset extends AssetBundle
 {
-    public $basePath="@home/web/css";
-    public $baseUrl="@web/home/web/css";
-    public $css=[
+    public $basePath = "@home/web/css";
+    public $baseUrl = "@web/home/web/css";
+    public $css = [
         'site.css'
     ];
-    public $js=[];
+    public $js = [];
 
-    public $depends= array(
-            "yii\web\YiiAsset",
-            'yii\bootstrap\BootstrapAsset'
+    public $depends = array(
+        "yii\web\YiiAsset",
+        'yii\bootstrap\BootstrapPluginAsset'
+
     );
 
 }

@@ -2,6 +2,8 @@
 /* @var $this yii\web\view */
 
 use home\assets\HomeAsset;
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
 
 /* @var $content */
 HomeAsset::register($this);
@@ -20,7 +22,14 @@ $this->beginPage();
 </head>
 <body>
 <?php $this->beginBody()?>
-对对对
+<?php
+NavBar::begin(['brandLabel'=>'公司名称']);
+echo Nav::widget([
+
+]);
+NavBar::end();
+
+?>
 <?php $this->endBody()?>
 </body>
 </html>

@@ -10,9 +10,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/cebe/markdown" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/xindong888/TreeNav" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-bootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-debug" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -27,9 +29,11 @@
           <root url="file://$MODULE_DIR$/vendor/cebe/markdown" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/ezyang/htmlpurifier" />
+          <root url="file://$MODULE_DIR$/vendor/xindong888/TreeNav" />
           <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2" />
           <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2-bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2-composer" />
+          <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2-debug" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bower/bootstrap" />
@@ -40,9 +44,11 @@
           <root url="file://$MODULE_DIR$/vendor/cebe/markdown" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/ezyang/htmlpurifier" />
+          <root url="file://$MODULE_DIR$/vendor/xindong888/TreeNav" />
           <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2" />
           <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2-bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2-composer" />
+          <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2-debug" />
         </SOURCES>
       </library>
     </orderEntry>

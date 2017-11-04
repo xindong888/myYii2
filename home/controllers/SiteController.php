@@ -16,4 +16,7 @@ class SiteController extends Controller
         $a="cc";
         return $this->render('index',['a'=>$a]);
     }
+    public function actionAjax(){
+        echo  $this->renderAjax('ajax');
+    }
 }
