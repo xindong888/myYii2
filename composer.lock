@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ba8ac3f44d3dbf1165f6cd7484b5351",
+    "content-hash": "0d24373bfef25bea45a2b66d9a75b94b",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -383,6 +383,35 @@
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
             "time": "2016-04-07T12:29:16+00:00"
+        },
+        {
+            "name": "xindong888/tree-nav",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xindong888/treeNav.git",
+                "reference": "24641d1a5c915abf06a13c309dd2117abd66500c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xindong888/treeNav/zipball/24641d1a5c915abf06a13c309dd2117abd66500c",
+                "reference": "24641d1a5c915abf06a13c309dd2117abd66500c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "treeNav\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "xindong888",
+                    "email": "xindong888@163.com"
+                }
+            ],
+            "time": "2017-11-05T03:17:57+00:00"
         },
         {
             "name": "yiisoft/yii2",

@@ -11,5 +11,6 @@ return array(
     'yii\\composer\\' => array($vendorDir . '/yiisoft/yii2-composer'),
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
+    'treeNav\\' => array($vendorDir . '/xindong888/tree-nav'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
 );

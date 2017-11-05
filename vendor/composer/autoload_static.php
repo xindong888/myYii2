@@ -19,6 +19,10 @@ class ComposerStaticInit999339993fb2c413a5fde7ffb3d1f246
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
         ),
+        't' => 
+        array (
+            'treeNav\\' => 8,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -45,6 +49,10 @@ class ComposerStaticInit999339993fb2c413a5fde7ffb3d1f246
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'treeNav\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/xindong888/tree-nav',
         ),
         'cebe\\markdown\\' => 
         array (
