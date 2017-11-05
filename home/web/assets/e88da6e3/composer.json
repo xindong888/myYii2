@@ -1,0 +1,17 @@
+{
+    "name": "xindong888/tree-nav",
+    "authors": [
+        {
+            "name": "xindong888",
+            "email": "xindong888@163.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload":{
+        "psr-4":{
+            "treeNav\\":""
+        }
+    }
+}

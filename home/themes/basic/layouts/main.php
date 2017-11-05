@@ -2,7 +2,8 @@
 /* @var $this yii\web\view */
 
 use home\assets\HomeAsset;
-use yii\bootstrap\Nav;
+use treeNav\NavTreeX;
+use treeNav\Tree;
 use yii\bootstrap\NavBar;
 
 /* @var $content */
@@ -23,12 +24,12 @@ $this->beginPage();
 <body>
 <?php $this->beginBody()?>
 <?php
-NavBar::begin(['brandLabel'=>'公司名称']);
-echo Nav::widget([
-
+NavBar::begin(['brandLabel' => '我的程序']);
+echo NavTreeX::widget([
+    'options' => ['class' => 'navbar-nav nav'],
+    'items' => Tree::genTreeAll(Tree::data(\app\models\Address::className())),
 ]);
 NavBar::end();
-
 ?>
 <?php $this->endBody()?>
 </body>

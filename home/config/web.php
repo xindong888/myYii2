@@ -20,10 +20,13 @@ return [
     "vendorPath" => dirname(dirname(__DIR__)) . '/vendor',
     "controllerNamespace" => 'home\controllers',
     "language" => 'zh-CN',
-    "bootstrap" => YII_DEBUG ? ['debug'] : [],
+    "bootstrap" => YII_DEBUG ? ['debug','gii'] : [],
     "modules" => [
         "debug" => [
             'class' => 'yii\\debug\\Module'
+        ],
+        'gii'=>[
+            'class'=>yii\gii\Module::className(),
         ]
     ],
     "components" => [

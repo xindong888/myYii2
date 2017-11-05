@@ -13,8 +13,8 @@ use yii\web\Controller;
 class SiteController extends Controller
 {
     public function actionIndex(){
-        $a="cc";
-        return $this->render('index',['a'=>$a]);
+
+        return $this->render('index');
     }
     public function actionAjax(){
         echo  $this->renderAjax('ajax');

@@ -20,7 +20,7 @@
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="11" parent="9" name="name">
+    <column id="11" parent="9" name="label">
       <Position>2</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
@@ -30,7 +30,11 @@
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="13" parent="9" name="PRIMARY">
+    <column id="13" parent="9" name="url">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <key id="14" parent="9" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
